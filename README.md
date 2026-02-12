@@ -7,9 +7,9 @@ This project focuses on predicting daily sales per store & product category.
 We leverage past sales, promotions, holidays, and oil price to forecast future demand.  
 
 📊 **Dataset**  
-- **Source:** Kaggle Store Sales Time Series Dataset  
-- **Train size:** ~2.5M rows  
-- **Test size:** ~0.3M rows  
+- **Source:** [Kaggle Store Sales Time Series Dataset](https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data)  
+- **Train size:** ~2.5M rows (download from Kaggle)  
+- **Test size:** ~0.3M rows (download from Kaggle)  
 - **Target variable:** `sales`  
 
 🛠️ **Tools & Technologies**  
@@ -40,8 +40,11 @@ We leverage past sales, promotions, holidays, and oil price to forecast future d
 
 📁 **Repository Structure**  
 - `notebooks/`  → Jupyter notebooks 🗒️  
-- `data/`       → Dataset files 📂  
+- `data/`       → **Download data from Kaggle** [link](https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data) 📂  
 - `outputs/`    → Submission files 📝  
+
+💡 **Note:**  
+Due to dataset size, train CSV file are **not included** in the repo. Please download them directly from Kaggle and place in `data/` folder.  
 
 🔗 **Kaggle Link**  
 [Store Sales Time Series Forecasting](https://www.kaggle.com/competitions/store-sales-time-series-forecasting)
